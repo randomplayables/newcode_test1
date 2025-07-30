@@ -1,0 +1,94 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.App h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.attempt-count {
+  font-size: 1rem;
+  color: #555;
+}
+
+.guess-input {
+  display: flex;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.guess-input input {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.guess-input button {
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.guess-input button:hover {
+  background-color: #0056b3;
+}
+
+.guess-result {
+  width: 100%;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.guess-history {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.guess-history ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.guess-history li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.reset-button button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.reset-button button:hover {
+  background-color: #1e7e34;
+}
